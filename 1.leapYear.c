@@ -2,11 +2,9 @@
 
 int main(){
 
-    // Declaring an variable to store the input year from user.
-    int year;
+    int year;				// Declaring an variable to store the input year from user.
 
-    // Showing user to enter a year.
-    printf("Enter any year: ");
+    printf("Enter any year: ");		// User prompt
     scanf("%d", &year);
 
     if ((year % 4 == 0 && year % 100 != 0) || year % 400 == 0) {
@@ -15,6 +13,5 @@ int main(){
         printf("%d is not a leap year.\n", year);	// If the year is not leap year.
     }
 
-    // if the program ends successfully.
-    return 0;
+    return 0;				// if the program ends successfully.
 }
